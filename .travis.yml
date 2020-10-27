@@ -20,6 +20,7 @@ after_success:
   - docker push evilfiend/multi-nginx
   - docker push evilfiend/multi-worker
 
+# Deploying to Beanstalk
 deploy:
   provider: elasticbeanstalk
   region: us-east-1
